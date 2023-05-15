@@ -11,26 +11,29 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  /*otázka 2*/
+  text-align: right;
   background-image: url("./images/landscape.jpg");
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 50px;
+/*otázka 1*/
+  font-size: 60px;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  /*otázka 6*/
   top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  /*otázka 7*/
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +43,8 @@ body {
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  /*otázka 7*/
+  float: left;
 }
 
 /* Change color on hover */
@@ -63,21 +67,24 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
-  background-color: #f1f1f1;
+  /*otázka 4*/
+  flex: 25%; /*otázka 8*/
+  background-color: #000745;
   padding: 20px;
+  color: rgb(151, 151, 151);
 }
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 75%; /*otázka 8*/
   background-color: white;
   padding: 20px;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
+  /*otázka 5*/
+  padding: 50px;
   background: #474747;
 }
 
@@ -85,15 +92,16 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  /*otázka 3*/
+  color: #33ff00;
 }
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 90px; /*otázka 9*/
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 0, 0); /*otázka 10*/
 }
 
 /* Styles for the post heading */
